@@ -1,10 +1,7 @@
 package main.java;
 
 import java.text.ParseException;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class TodoManager {
 
@@ -35,17 +32,10 @@ public class TodoManager {
         }
     }
 
-    public void closeTask(Person person, Task task){
-        if (todolst.get(person).contains(task)){
+    public void closeTask(Person person, Task task) {
+        if (todolst.get(person).contains(task)) {
             Task taskToModify = todolst.get(person).get(todolst.get(person).indexOf(task));
             taskToModify.setStatus(Status.closed);
-        }
-    }
-
-    public void openTask(Person person, Task task){
-        if (todolst.get(person).contains(task)){
-            Task taskToModify = todolst.get(person).get(todolst.get(person).indexOf(task));
-            taskToModify.setStatus(Status.open);
         }
     }
 
@@ -63,6 +53,17 @@ public class TodoManager {
         }
     }
 
+    public void seeAll(){
+        Iterator it = todolst.entrySet().iterator();
+        while (it.hasNext()) {
+            Map.Entry pair = (Map.Entry)it.next();
+            System.out.println(pair.getKey() + " = " + pair.getValue());
+        }
+
+        for (Integer key : map.keySet()) {
+            System.out.println("Key = " + key);
+
+    }
 
     @Override
     public String toString() {
@@ -70,4 +71,5 @@ public class TodoManager {
                 "todolst=" + todolst +
                 '}';
     }
+
 }

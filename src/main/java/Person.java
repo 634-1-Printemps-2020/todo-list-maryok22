@@ -19,10 +19,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "lastname='" + lastname + '\'' +
-                ", firstname='" + firstname + '\'' +
-                '}';
+        return lastname + " " + firstname;
     }
 
     @Override
