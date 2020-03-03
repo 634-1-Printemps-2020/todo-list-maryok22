@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f592c4eb-462f-4432-85a4-636460929373" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TODOV2/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TODOV2/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TODOV2/main/java/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TODOV2/main/java/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TODOV2/main/java/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TODOV2/main/java/Task.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TODOV2/main/java/TodoManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TODOV2/main/java/TodoManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TODOV2/test/TodoManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TODOV2/test/TodoManagerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TodoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TodoManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TodoManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TodoManagerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583176937393</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <created>1583234842524</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583234842524</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

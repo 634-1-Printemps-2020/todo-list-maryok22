@@ -57,11 +57,13 @@ public class TodoManager {
         Iterator it = todolst.entrySet().iterator();
         while (it.hasNext()) {
             Map.Entry pair = (Map.Entry)it.next();
-            System.out.println(pair.getKey() + " = " + pair.getValue());
-        }
+            System.out.println(" - Les tâches de " + pair.getKey() + " sont : ");
 
-        for (Integer key : map.keySet()) {
-            System.out.println("Key = " + key);
+            ArrayList<Task> lst = (ArrayList<Task>) pair.getValue(); //Stockage sous forme de liste
+            lst.forEach(tvShow -> {
+                System.out.println(tvShow);
+            });
+        }
 
     }
 
